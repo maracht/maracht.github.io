@@ -1,12 +1,21 @@
 $font-body: 'Merriweather', serif
 $font-code: 'Fira Code', monospace
-    
+
+@mixin 	util-full-width
+    left: 50%
+    margin-left: -50vw
+    margin-right: -50vw
+    max-width: 100vw
+    position: relative
+    right: 50%
+    width: 100vw
     
 h1
     font-family: $font-body
     font-size: 42px
     line-height: 53px
     letter-spacing: 0.035em
+    margin: 0
 
 h1 small 
     font-family: $font-code
@@ -29,4 +38,4 @@ p
     padding-right: 18px
 
 .hero-image
-    width: 100%
+    @include util-full-width
