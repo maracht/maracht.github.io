@@ -1,6 +1,9 @@
 $font-body: 'Merriweather', serif
 $font-code: 'Fira Code', monospace
 
+$color-dark-1: #333333
+$color-dark-2: #A5A5A5 
+
 @mixin 	util-full-width
     left: 50%
     margin-left: -50vw
@@ -16,20 +19,21 @@ h1
     line-height: 53px
     letter-spacing: 0.035em
     margin: 0
+    color: $color-dark-1
 
 h1 small 
     font-family: $font-code
     font-weight: 500
     font-size: 18px
     line-height: 24px
-    color: #A5A5A5
+    color: $color-dark-2
     text-transform: uppercase
 
 p
     font-family: $font-body
     font-size: 18px
     line-height: 27px
-    color: #333333
+    color: $color-dark-1
 
 .wrapper
     box-sizing: border-box
