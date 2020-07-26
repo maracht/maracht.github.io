@@ -1,39 +1,45 @@
+/* line 1, ../../../../../../../../../../../../../Users/marachtreekunprapa/DevProjects/maracht.github.io/src/main.sass */
 h1 {
-    font-family: 'Merriweather', serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 42px;
-    line-height: 53px;
-    letter-spacing: 0.035em;
-    color: #333333;
+  font-family: 'Merriweather', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 53px;
+  letter-spacing: 0.035em;
 }
 
+/* line 9, ../../../../../../../../../../../../../Users/marachtreekunprapa/DevProjects/maracht.github.io/src/main.sass */
 h1 small {
-    font-family: 'Fira Code', monospace;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    color: #A5A5A5;
-    text-transform: uppercase;
+  font-family: 'Fira Code', monospace;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #A5A5A5;
+  text-transform: uppercase;
 }
 
+/* line 18, ../../../../../../../../../../../../../Users/marachtreekunprapa/DevProjects/maracht.github.io/src/main.sass */
 p {
-    font-family: 'Merriweather', serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 27px;
-    color: #333333;
+  font-family: 'Merriweather', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #333333;
 }
 
+/* line 26, ../../../../../../../../../../../../../Users/marachtreekunprapa/DevProjects/maracht.github.io/src/main.sass */
 .wrapper {
-    box-sizing: border-box;
-    padding-top: 44px;
-    padding-left: 18px;
-    padding-right: 18px;
+  box-sizing: border-box;
+  padding-top: 44px;
+  padding-left: 18px;
+  padding-right: 18px;
 }
 
+/* line 32, ../../../../../../../../../../../../../Users/marachtreekunprapa/DevProjects/maracht.github.io/src/main.sass */
 .hero-image {
-    width: 100%;
+  width: 100%;
 }
+
+/*# sourceMappingURL=main.css.map */
