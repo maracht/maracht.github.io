@@ -1,0 +1,39 @@
+h1 {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 53px;
+    letter-spacing: 0.035em;
+    color: #333333;
+}
+
+h1 small {
+    font-family: 'Fira Code', monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #A5A5A5;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    padding-top: 44px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.hero-image {
+    width: 100%;
+}
