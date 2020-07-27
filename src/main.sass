@@ -4,6 +4,8 @@ $font-code: 'Fira Code', monospace
 $color-dark-1: #333333
 $color-dark-2: #A5A5A5 
 
+$tablet-size: 650px
+
 @mixin 	util-full-width
     left: 50%
     margin-left: -50vw
@@ -38,8 +40,30 @@ p
 .wrapper
     box-sizing: border-box
     padding-top: 44px
-    padding-left: 18px
-    padding-right: 18px
+    width: 90%
+    margin: auto
+    max-width: 960px
+
+@media screen and ( min-width: $tablet-size )
+    .wrapper
+        display: grid
+        grid-template-areas: "image headline" "image description"
+        grid-template-columns: 1fr 1fr
+
+    .hero-image
+        grid-area: image
+        align-self: center
+    
+    h1
+        grid-area: headline
+        align-self: end
+    
+    p
+        grid-area: description
+        align-self: start
 
 .hero-image
-    @include util-full-width
+    width: 100%
+    max-width: 450px
+    display: block
+    margin: auto
